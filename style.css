@@ -1,0 +1,59 @@
+.header{
+  text-align: center;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row{
+  margin: 2px;
+}
+
+.btn{
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  font-size: 50px ;
+  font-weight: 700;
+  cursor: pointer;
+  transition:ease-in-out 0.2s;
+}
+.btn:hover{
+  border-radius: 50%;
+  background-color: burlywood;
+}
+.btn:disabled{
+  cursor: not-allowed;
+  background-color: black;
+  color:white;
+  border-radius: 50%;
+
+
+}
+
+.result{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.reset{
+  display: flex;
+  justify-content: center;
+}
+
+
+#reset{
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  width: 75px;
+  height: 40px;
+  border-radius: 2px;
+}  
